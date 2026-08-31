@@ -1,0 +1,13 @@
+Förklara en mac adress och vart switchen lagrar dom.
+En mac address är ett id på ditt nätverkort som gör det lättare för switches att hitta din dator när den söker trafik.
+den gör att det slipper skicka till alla för att vänta ett svar. så skickar det direkt istället via trafiken.
+Switchen lär sig mac addresserna när trafik går igenom den. Den lägger upp det själv i en tabell som man kan avläsa
+med show mac adress-table i en switch konsol prompt.
+
+läsa show mac address och säga vilken enhet som är på vilken port.
+
+Fånga trafik i wireshark och peka ut avsändarens och mottagarens mac address
+
+Förklara arp vad den gör och varför den behövs.
+ARP är bra för en broadcast dvs den skickar signal till alla för att se vem är det som svarar. Det är ett bra protokoll
+felsökning och är ett bra verktyg för att hitta en dator på ett nätverk.
